@@ -36,8 +36,8 @@ int main()
     // WRITE STATEMENTS TO DISPLAY THE STUDENT'S NAME AND THEIR TEST
     // PERCENTAGE WITH ONE DECIMAL POINT.
     // set the width to 10 for some aesthetically pleasing cushion
-    // set the precision for outputting the double to 5 to capture num 4 decimal places
-    cout << name << setw(10) << setprecision(5) << percentage << "%" << endl;
+    // set the precision for outputting the double 4 decimal places - percentage plus one
+    cout << name << setw(10) << setprecision(4) << percentage << "%" << endl;
 
     return 0;
 }
